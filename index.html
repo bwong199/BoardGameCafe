@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Board Game Cafe</title>
+
+	
+
+	
+
+	<link rel="stylesheet" href="css/style.css">
+	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script src="js/script.js"></script>
+
+	
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">boardGameCafe</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+
+        <li><a href="#games">GAMES</a></li>
+        <li><a href="#menu">MENU</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Media</a></li> 
+          </ul>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="img/4.png" alt="New York" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>New York</h3>
+          <p>The atmosphere in New York is lorem ipsum.</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="img/5.png" alt="Chicago" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>Chicago</h3>
+          <p>Thank you, Chicago - A night we won't forget.</p>
+        </div>      
+      </div>
+    
+      <div class="item">
+        <img src="https://img.grouponcdn.com/seocms/TKh3FrCVe5f1fhSzYujc5/Is_the_Board-Game_Cafe_the_Future_of_Gaming_-1281x679" alt="Los Angeles" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>LA</h3>
+          <p>Even though the traffic was a mess, we had the best time playing at Venice Beach!</p>
+        </div>      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<!-- Container (The Band Section) -->
+
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">Opening February 2016</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>We invite you to enjoy a new old social experience. Come discover a new generation of board games, or reignite a friendly rivalry over a classic favourite. </p>
+      <img src="http://www.singleblackmale.org/wp-content/uploads/2014/03/board-games.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>We've got your taste buds covered with Phil & Sebastian coffee, great local brews, wines and delicious appetizers and entrees.</p>
+      <img src="http://static.wynnlasvegas.com/~/media/WLV/Dining/Casual%20Dining/Drugstore%20Cafe/3_405_Drugstore_Cafe_Counter_Barbara_Kraft.jpg?h=540&la=en&w=1001&vs=1&d=20141205T181704" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Our game experts are happy to help with recommendations and rules. Whether you're on a date, coming as a family or group of friends, we've got you covered. </p>
+      <img src="http://www.blogto.com/listings/cafes/upload/2013/06/castleboard201306.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+
+<div id="games" class="bg-1">
+  <div class="container">
+    <h1> Games </h1>
+    <br>
+    <br>
+    <h3> Our Board Games</h3>
+    <p> Whether you're a seasoned pro or a first timer, our game experts can make recommendations and teach games! Bring your date, family, friends, enemies or come alone and make new friends; with 300+ games, we have something for everyone.</p>
+    <br>
+    <br>
+
+    <div class="row">
+      <div class="col-sm-4">
+        <h3> 300+ </h3>
+        <p>BOARD GAMES  </p>
+        <p> AND COUNTING!</p>
+      </div>
+
+      <div class="col-sm-4"> 
+        <h3>UNLIMITED PLAY</h3>
+        <p>UNLIMITED PLAY </p>
+        <p>MONGDAY - THURSDAY</p>
+      </div>
+
+      <div class="col-sm-4"> 
+        <h3>$2.50/hr</h3>
+        <p>FRIDAY–SUNDAY</p>
+
+      </div>
+    </div>
+    <br>
+
+    <div id="tabs">
+      <ul>
+        <li><a href="#A">A</a></li>
+        <li><a href="#B">B</a></li>
+        <li><a href="#C">C</a></li>
+        <li><a href="#C">D</a></li>
+        <li><a href="#C">E</a></li>
+        <li><a href="#C">F</a></li>
+        <li><a href="#C">G</a></li>
+        <li><a href="#C">H</a></li>
+        <li><a href="#C">I</a></li>
+        <li><a href="#C">J</a></li>
+        <li><a href="#C">K</a></li>
+        <li><a href="#C">L</a></li>
+        <li><a href="#C">M</a></li>
+        <li><a href="#C">N</a></li>
+        <li><a href="#C">O</a></li>
+        <li><a href="#C">P</a></li>
+        <li><a href="#C">Q</a></li>
+        <li><a href="#C">R</a></li>
+        <li><a href="#C">S</a></li>
+        <li><a href="#C">T</a></li>
+        <li><a href="#C">U</a></li>
+        <li><a href="#C">V</a></li>
+        <li><a href="#C">W</a></li>
+        <li><a href="#C">X</a></li>
+        <li><a href="#C">Y</a></li>
+        <li><a href="#C">Z</a></li>
+
+      </ul>
+      <div id="A">
+        <ul>
+          <li>A Game of Thrones: The Board Game</li>
+          <li>Abalone</li>
+          <li>Agricola</li>
+          <li>Alien Frontiers 4th Edition</li>
+          <li>Android: Netrunner</li>
+          <li>Anomia</li>
+          <li>Apples to Apples</li>
+          <li>Arkham Horror</li>
+          <li>Augustus</li>
+        </ul>
+      </div>
+      <div id="B">
+        <ul>
+          <li>Backgammon</li>
+          <li>Balderdash</li>
+          <li>Banana Matcho</li>
+          <li>Bananagrams</li>
+          <li>Bang! The Bullet!</li>
+          <li>Batman Fluxx</li>
+          <li>Battleship</li>
+          <li>Battlestar Galactica</li>
+          <li>Betrayal at House on the Hill</li>
+        </ul>
+      </div>
+      <div id="C">
+  <div class="row">
+    <div class="col-sm-2">
+      <p class="text-center"><strong>Game 1</strong></p><br>
+      <a href="#demo" data-toggle="collapse">
+        <img src="http://static1.squarespace.com/static/5659229ae4b0c6e18e3f25b9/566b675169492e9db2a82795/566dc0747086d7e2aad094e4/1450033269216/dixit%2Bfront.jpg?format=300w" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo" class="collapse">
+        <p>Description about game C1</p>
+        
+      </div>
+    </div>
+    <div class="col-sm-2">
+      <p class="text-center"><strong>C2</strong></p><br>
+      <a href="http://static1.squarespace.com/static/5659229ae4b0c6e18e3f25b9/566b675169492e9db2a82795/566dc04c7086d7e2aad0936d/1450033230723/Concept.png?format=300w" data-toggle="collapse">
+        <img src="bandmember.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo2" class="collapse">
+        <p>Description about game C2</p>
+        
+      </div>
+    </div>
+    <div class="col-sm-2">
+      <p class="text-center"><strong>C3</strong></p><br>
+      <a href="#demo3" data-toggle="collapse">
+        <img src="http://static1.squarespace.com/static/5659229ae4b0c6e18e3f25b9/566b675169492e9db2a82795/566b676e57eb8de92a49a793/1449879409601/pic2407103.jpg?format=300w" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo3" class="collapse">
+        <p>Description about game C3</p>
+      </div>
+    </div>
+    <div class="col-sm-2">
+      <p class="text-center"><strong>C4</strong></p><br>
+      <a href="#demo4" data-toggle="collapse">
+        <img src="http://static1.squarespace.com/static/5659229ae4b0c6e18e3f25b9/566b675169492e9db2a82795/566b676e57eb8de92a49a793/1449879409601/pic2407103.jpg?format=300w" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo4" class="collapse">
+        <p>Bass player</p>
+        <p>Loves math</p>
+        <p>Member since 2005</p>
+      </div>
+    </div>
+    <div class="col-sm-2">
+      <p class="text-center"><strong>Name</strong></p><br>
+      <a href="#demo4" data-toggle="collapse">
+        <img src="http://static1.squarespace.com/static/5659229ae4b0c6e18e3f25b9/566b675169492e9db2a82795/566b676e57eb8de92a49a793/1449879409601/pic2407103.jpg?format=300w" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo4" class="collapse">
+        <p>Bass player</p>
+        <p>Loves math</p>
+        <p>Member since 2005</p>
+      </div>
+    </div>
+    <div class="col-sm-2">
+      <p class="text-center"><strong>Name</strong></p><br>
+      <a href="#demo4" data-toggle="collapse">
+        <img src="http://static1.squarespace.com/static/5659229ae4b0c6e18e3f25b9/566b675169492e9db2a82795/566b676e57eb8de92a49a793/1449879409601/pic2407103.jpg?format=300w" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo4" class="collapse">
+        <p>Bass player</p>
+        <p>Loves math</p>
+        <p>Member since 2005</p>
+      </div>
+    </div>
+    <div class="col-sm-2">
+      <p class="text-center"><strong>Name</strong></p><br>
+      <a href="#demo9" data-toggle="collapse">
+        <img src="http://static1.squarespace.com/static/5659229ae4b0c6e18e3f25b9/566b675169492e9db2a82795/566b676e57eb8de92a49a793/1449879409601/pic2407103.jpg?format=300w" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo9" class="collapse">
+        <p>Bass player</p>
+        <p>Loves math</p>
+        <p>Member since 2005</p>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+  </div>
+
+
+  //live search 
+
+
+
+<div class="container">
+
+    <form id="live-search" action="" class="styled" method="post">
+      <fieldset>
+          <input type="text" class="text-input" id="filter" value="" />
+          <!-- <span id="filter-count"></span> -->
+      </fieldset>
+  </form>
+  <nav>
+      <ul>
+          <li><a href="#">JA Game of Thrones: The Board Game</a></li>
+          <li><a href="#">Backgammon</a></li>
+          <li><a href="#">Jenga</a></li>
+          <li><a href="#">Memoir '44</a></li>
+          <li><a href="#">One Night Ultimate Vampire</a></li>
+          <li><a href="#">Pandemic: On the Brink</a></li>
+          <li><a href="#">Race for the Galaxy</a></li>
+          <li><a href="#">Quarto</a></li>
+          <li><a href="#">Rummikub</a></li>
+          <li><a href="#">Settlers of Catan: 5 - 6 Players</a></li>
+          <li><a href="#">Taboo</a></li>
+          <li><a href="#">Takenoko: Chibis</a></li>
+          <li><a href="#">Uno</a></li>
+      </ul>
+  </nav>
+</div>
+
+</div>
+
+
+<div id="menu" >
+  <div class="container">
+      <h1>Menu</h1>
+      <div id="accordion">
+      <h3>Breakfast</h3>
+      <div>
+        <p>
+          Bacon, Egg and Cheese
+        </p>
+      </div>
+      <h3>Lunch</h3>
+      <div>
+        <p>
+          Sandwiches and more sandwiches
+        </p>
+      </div>
+      <h3>Beverages</h3>
+      <div>
+        <p>
+          Tea and coffee
+        </p>
+        <ul>
+          <li>List item one</li>
+          <li>List item two</li>
+          <li>List item three</li>
+        </ul>
+      </div>
+      <h3>Sharing</h3>
+      <div>
+        <p>
+        Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+        et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+        faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+        mauris vel est.
+        </p>
+        <p>
+        Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+        inceptos himenaeos.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Container (Contact Section) -->
+<div id="blog" class="container">
+  <h3 class="text-center">Contact</h3>
+  <p class="text-center"><em>We love our fans!</em></p>
+
+  <div class="row">
+    <div class="col-md-4">
+      <p>Fan? Drop a note.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>Chicago, US</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p>    
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+      <br>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit">Send</button>
+        </div>
+      </div>  
+    </div>
+  </div>
+  <br>
+  <h3 class="text-center">From The Blog</h3>  
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Mike</a></li>
+    <li><a data-toggle="tab" href="#menu1">Chandler</a></li>
+    <li><a data-toggle="tab" href="#menu2">Peter</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h2>Mike Ross, Manager</h2>
+      <p>Man, we've been on the road for some time now. Looking forward to lorem ipsum.</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h2>Chandler Bing, Guitarist</h2>
+      <p>Always a pleasure people! Hope you enjoyed it as much as I did. Could I BE.. any more pleased?</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h2>Peter Griffin, Bass player</h2>
+      <p>I mean, sometimes I enjoy the show, but other times I enjoy other things.</p>
+    </div>
+  </div>
+</div>
+
+<div id="about" class="container text-center">
+  <h3>About Box Car Cafe</h3>
+  <p><em>Situated in the Radio Block heritage building in the heart of Victoria Park, Boxcar is one of Calgary's first board game cafes.</em></p>
+  <p>Created by three young board game enthusiasts with diverse backgrounds, Boxcar aims to deliver a social experience that everyone can enjoy. From friends who have never played a board game to the most veteran enthusiasts, we hope to delight you all with our large and ever growing collection of unique board games. </p>
+  <br>
+  <p>We are hiring for all Boxcar positions including board game experts/servers and coffee-loving baristas. If you are interested in applying, please send your cover letter and resume to info@boadgamecafe.ca. We look forward to getting you on board!</p>
+
+</div>
+
+<div id="googleMap"></div>
+
+</body>
+
+<footer class="text-center">
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+  <p>Board Game Cafe, CALGARY, AB T2R 0V3, Board Game Cafe</p> 
+</footer>
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+
+</html>
+
+
+
+
+
+
